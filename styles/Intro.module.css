@@ -65,6 +65,12 @@
   animation: button 1s ease infinite alternate;
 }
 
+.hero {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 @keyframes button {
   to {
     background-color: black;
@@ -80,6 +86,10 @@
   .circle1 {
     right: -50vh;
     bottom: -50vh;
+  }
+
+  .hero {
+    display: none;
   }
 
   .card {

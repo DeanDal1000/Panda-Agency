@@ -24,7 +24,7 @@ const Services = ({ services }) => {
                       loop
                     />
                   ) : (
-                    <Image
+                    <img
                       src={`/img/${service.photo}`}
                       width="100%"
                       height="100%"
