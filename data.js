@@ -145,7 +145,7 @@ export const data = [
 export const users = [
   {
     id: 1,
-    logo: 'yahoo.png',
+    logo: 'mail.png',
     avatar: 'user1.jpeg',
     comment:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.',
