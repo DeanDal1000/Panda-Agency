@@ -18,12 +18,7 @@ const Intro = () => {
         <button className={style.button}>DISCOVER</button>
       </div>
       <div className={style.card}>
-        <Image
-          src={process.env.NEXT_PUBLIC_URL + '/img/hero3.jpg'}
-          layout="fill"
-          objectFit="cover"
-          alt=""
-        />
+        <Image src="/img/hero3.jpg" layout="fill" objectFit="cover" alt="" />
       </div>
     </div>
   );
